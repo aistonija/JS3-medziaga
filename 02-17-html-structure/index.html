@@ -1,13 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lt">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Structure</title>
+    <title>HTML struktūra</title>
   </head>
+
   <body>
-    <h3>Igudziu lentele</h3>
+    <h1>HTML elementai</h1>
+    <hr />
+    <!-- Brūkšnys per visą plotį -->
+    <h2>Blokiniai elementai</h2>
+    <p>
+      Blokiniai elementai, tai tokie elementai kurie atvaizduojami vienas po
+      kitu, lyg namo aukštai.
+    </p>
+    <h3>Dažniausiai naudojami blokiniai elementai:</h3>
+    <ul>
+      <li>div - standartinis blokinis elementas</li>
+      <li>section - blokinis elementas skirtas puslapio sekcijai</li>
+      <li>footer - blokinis elementas skirtas apatinei sekcijai</li>
+      <li>header - blokinis elementas skirtas antraštei kurti</li>
+      <li>
+        article - blokinis elementas skirtas puslapio straipsniui (sekcijos
+        daliai)
+      </li>
+    </ul>
+    <hr />
+    <!-- Brūkšnys per visą plotį -->
+    <h2>Studentų lentelė</h2>
+    <table border="1" width="100%">
+      <thead>
+        <tr>
+          <th>Vardas</th>
+          <th>Pavardė</th>
+          <th>Fakultetas</th>
+          <th>Kursas</th>
+          <th>Vidurkis</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Serbentautas</td>
+          <td>Bordiūras</td>
+          <td>Šonaslydžio</td>
+          <td>1</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>Stalas</td>
+          <td>Komodauskas</td>
+          <td>Baldininkystė</td>
+          <td>2</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>Stiklė</td>
+          <td>Lempaitė</td>
+          <td>Saulės energetika</td>
+          <td>2</td>
+          <td>9</td>
+        </tr>
+        <tr>
+          <td>Vėjas</td>
+          <td>Tornadanas</td>
+          <td>Meterologija</td>
+          <td>3</td>
+          <td>8</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <h2>Pamokų tvarkaraštis</h2>
+
+    <table border="1" width="100%">
+      <thead>
+        <tr>
+          <th colspan="6">Pamokų tvarkaraštis</th>
+        </tr>
+        <tr>
+          <th>Laikas</th>
+          <th>I</th>
+          <th>II</th>
+          <th>III</th>
+          <th>IV</th>
+          <th>V</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>8:00-8:45</td>
+          <td>Anglu</td>
+          <td>Matematika</td>
+          <td>Lietuvių k.</td>
+          <td>Matematika</td>
+          <td>Geografija</td>
+        </tr>
+        <tr>
+          <td>8:55-9:40</td>
+          <td>Lietuvių</td>
+          <td rowspan="2">Lietuvių</td>
+          <td>Anglų k.</td>
+          <td>Lietuvių k.</td>
+          <td>Matematika</td>
+        </tr>
+        <tr>
+          <td>10:00-10:45</td>
+          <td>Matematika</td>
+          <td>Matematika</td>
+          <td>Matematika</td>
+          <td>Kūno kultūra</td>
+        </tr>
+        <tr>
+          <td>11:05-11:50</td>
+          <td>Anglų k.</td>
+          <td>Muzika</td>
+          <td>Fizika</td>
+          <td rowspan="2">Anglų k.</td>
+          <td>Istorija</td>
+        </tr>
+        <tr>
+          <td>12:00-12:45</td>
+          <td>Geografija</td>
+          <td>Fizika</td>
+          <td>Chemija</td>
+          <td>Biologija</td>
+        </tr>
+        <tr>
+          <td>12:55-13:40</td>
+          <td>Chemija</td>
+          <td>Istorija</td>
+          <td>Biologija</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>13:50-14:35</td>
+          <td></td>
+          <td>Dailė</td>
+          <td>Kūno kultūra</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <!-- Exercise Table within Table -->
+    <h2>Įgūdžių lentelė</h2>
     <table border="1">
       <tr>
         <td>
@@ -17,28 +156,28 @@
               <td>⭐⭐⭐⭐⭐</td>
             </tr>
             <tr>
-              <td>Graphic Design</td>
-              <td>⭐⭐⭐⭐</td>
+              <td>Singing</td>
+              <td>⭐⭐⭐⭐⭐</td>
             </tr>
             <tr>
-              <td>Photography</td>
-              <td>⭐⭐⭐</td>
+              <td>Dancing</td>
+              <td>⭐⭐⭐⭐</td>
             </tr>
           </table>
         </td>
         <td>
           <table>
             <tr>
-              <td>Culinary</td>
-              <td>⭐⭐⭐⭐⭐</td>
+              <td>Photography</td>
+              <td>⭐⭐⭐</td>
             </tr>
             <tr>
               <td>Graphic Design</td>
               <td>⭐⭐⭐⭐</td>
             </tr>
             <tr>
-              <td>Photography</td>
-              <td>⭐⭐⭐</td>
+              <td>Sleeping</td>
+              <td>⭐⭐⭐⭐⭐</td>
             </tr>
           </table>
         </td>
