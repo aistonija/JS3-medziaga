@@ -1,0 +1,37 @@
+1. image-task.png
+
+- Į bloką sudėti 3 skirtingas nuotraukas taip, kad jos atsivaizduotų viena šalia kitos, ir būtų vienodo dydžio, be tarpų. 
+
+------------------------------------------------------------------------
+
+2. box-model-task.png
+
+- Sukurti kelis vienodo dydzio kvadratus 1-oje eileje;
+- Kiekvienas kvadratas turėtų turėti skirtingus box modelius:
+    2.1. ant visų: border: 1px solid ryski spalva;
+
+    2.2. padding: 20px; margin: 20px;
+    2.3. tik margin: 20px;
+    2.4. tik padding: 20px;
+    2.5. be margin ir be padding. 
+
+------------------------------------------------------------------------
+
+3. opacity-task.png
+
+- Sudaryti sąrašą, nuo 0 iki 10.
+- Kiekvienam elementui pritaikyti stiliaus savybę: opacity (nuo 0 iki 1)
+
+------------------------------------------------------------------------
+
+4. table-styling.png
+
+- Pasirašyti lentelę iš kelių dalių, pvz. 4 šalys. 
+- Lentelės pavadinimų eilutė turėtų būti nuspalvinta kokia nors spalva, ir surašyti šalių pavadinimai.
+- Sekančioje eilutėje turėtų būti tos šalies vėliava su 10px tarpais iki lentelės rėmų (parašyta su css, ne nuotrauka).
+- Paskutinėje eilutėje nuoroda į tos šalies wikipedia, išcentruota. 
+
+5. table-styling-scale.png
+
+- užvedus pelytę ant vėliavos vėliava turėtų padidėti 1.2 karto (savybė: scale);
+- užvedus ant šalies nuorodos, pasikeičia būtent to laukelio background spalva.
