@@ -1,0 +1,62 @@
+body {
+  background-color: blue;
+}
+
+h2 {
+  background-color: orangered;
+}
+
+div {
+  background-color: blue;
+  text-align: center;
+}
+
+img {
+  background-color: brown;
+}
+
+p {
+  background-color: cornflowerblue;
+  text-align: center;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+#first-section {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#section {
+  background-color: rebeccapurple;
+}
+
+section {
+  background-color: palegreen;
+}
+
+.class {
+  background-color: palevioletred;
+}
+
+section {
+  background-color: aqua;
+}
+
+[type="text"] {
+  background-color: skyblue;
+}
+
+p:first-child {
+  background-color: green;
+}
