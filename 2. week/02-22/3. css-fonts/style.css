@@ -1,0 +1,30 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.text-box {
+  margin: 100px auto;
+  text-align: center;
+  width: 800px;
+}
+
+.text-box h1 {
+  font-size: 50px;
+  font-family: "Stick", sans-serif;
+}
+
+.icons-box i {
+  font-size: 50px;
+  padding: 20px;
+  color: blue;
+  background-color: coral;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+.icons-box i:hover {
+  background-color: blue;
+  color: coral;
+}
