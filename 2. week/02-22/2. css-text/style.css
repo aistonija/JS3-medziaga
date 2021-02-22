@@ -1,0 +1,37 @@
+section {
+  margin-bottom: 50px;
+}
+
+.text-color {
+  color: rgba(0, 0, 0, 0.4);
+  background-color: bisque;
+  padding: 10px;
+}
+
+.text-align {
+  text-align: justify;
+}
+
+p.text-decoration {
+  text-decoration: line-through;
+}
+
+a {
+  text-decoration: none;
+}
+
+.transformation {
+  text-transform: capitalize;
+}
+
+p.spacing {
+  text-indent: 100px;
+  letter-spacing: 5px;
+  word-spacing: 20px;
+  line-height: 2;
+  /* 16px*2 = 32px */
+}
+
+.shadow {
+  text-shadow: 2px 2px 5px blue;
+}
