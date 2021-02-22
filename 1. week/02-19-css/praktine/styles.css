@@ -1,0 +1,144 @@
+/* global styles */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(68, 74, 78);
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* header and navigation styles */
+
+header {
+  padding: 20px 0;
+  background-color: rgb(251, 0, 18);
+  color: white;
+}
+
+.menu,
+.title {
+  text-align: center;
+}
+
+.menu {
+  padding: 10px 0;
+}
+
+.menu a {
+  margin: 0 20px;
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px 12px;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+#apie .img {
+  display: inline-block;
+  width: 250px;
+}
+
+.img img {
+  width: 100%;
+}
+
+.content {
+  display: inline-block;
+  width: 700px;
+  margin-left: 30px;
+  vertical-align: top;
+  /* text-align: center; */
+}
+
+.content p {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.content a {
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.content a:hover {
+  background-color: aqua;
+}
+
+#tvarkarastis table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+#tvarkarastis table td {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#tvarkarastis table td:first-child {
+  font-weight: bold;
+}
+
+#tvarkarastis table th {
+  font-size: 1.6em;
+  background-color: #ea9f26;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+#tvarkarastis table .title {
+  text-align: center;
+  width: 100%;
+  color: black;
+  background-color: white;
+}
+
+#tvarkarastis td a {
+  color: rgb(183, 0, 0);
+}
+
+/* section tag has text centering why do we need to center #filosofija? */
+
+#filosofija {
+  text-align: center;
+}
+
+#filosofija cite {
+  margin-bottom: 10px;
+}
+
+#filosofija cite span {
+  display: block;
+}
+
+#kontaktai {
+  padding-bottom: 0;
+  border: 0;
+}
+
+iframe {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  margin: 10px 0;
+  color: white;
+  opacity: 0.5;
+}
