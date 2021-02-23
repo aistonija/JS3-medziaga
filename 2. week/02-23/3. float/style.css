@@ -1,0 +1,45 @@
+section {
+  width: 800px;
+  margin: 0 auto;
+  background-color: darkmagenta;
+}
+
+header,
+footer {
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+main,
+aside {
+  height: 500px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+header {
+  background-color: cadetblue;
+}
+
+main {
+  background-color: coral;
+  float: left;
+  width: 70%;
+  margin-right: 1%;
+}
+
+aside {
+  background-color: cornflowerblue;
+  float: left;
+  width: 29%;
+}
+
+footer {
+  background-color: darkgrey;
+  clear: left;
+}
+
+.box {
+  box-sizing: border-box;
+}

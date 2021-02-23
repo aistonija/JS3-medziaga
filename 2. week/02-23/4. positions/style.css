@@ -1,0 +1,30 @@
+body {
+  overflow-x: hidden;
+}
+
+section {
+  padding: 50px;
+}
+
+.static {
+  background-color: darkorange;
+}
+
+.relative {
+  background-color: darkorchid;
+  position: relative;
+  /* top: 100px; */
+}
+
+.absolute {
+  padding-top: 150px;
+  position: relative;
+  background-color: darkslateblue;
+}
+
+.position-absolute {
+  background-color: darkturquoise;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
