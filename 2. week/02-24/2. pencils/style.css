@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  background-image: url("img/cover-hero.jpg");
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+header {
+  height: 60px;
+  background-color: rgb(12, 12, 12);
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.logo {
+  height: 100%;
+  display: inline-block;
+  padding: 10px 0;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+.logo img {
+  height: 100%;
+}
+
+nav {
+  float: right;
+  width: 600px;
+  text-align: right;
+  padding-top: 18px;
+}
+
+main {
+  clear: both;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
+  padding: 18px;
+}
+
+nav a:hover {
+  background-color: rgb(70, 70, 70);
+}
+
+/* main content - text & buttons */
+
+.text-content {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+}
+
+.text-content h1 {
+  font-size: 4em;
+  font-style: italic;
+  color: rgb(78, 74, 33);
+  font-weight: 800;
+}
+
+/* buttons */
+
+.buttons button {
+  display: inline-block;
+  border: 1px solid #555;
+  padding: 12px 24px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 3px 6px 1px #5555;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.btn-yellow {
+  background-image: linear-gradient(to bottom, #e6b004, #bb9414);
+}
+
+.btn-yellow:hover {
+  background-image: linear-gradient(to top, #e6b004, #bb9414);
+}
+
+.btn-grey {
+  background-image: linear-gradient(to bottom, #9f9ca3, #575c69);
+}
+
+.btn-grey:hover {
+  background-image: linear-gradient(to top, #9f9ca3, #575c69);
+}
+
+/* pencils img */
+main img {
+  width: 700px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
