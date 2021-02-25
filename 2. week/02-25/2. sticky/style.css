@@ -1,0 +1,21 @@
+.sticky-example {
+  width: 200px;
+}
+
+.sticky-header {
+  background-color: black;
+  color: white;
+  position: sticky;
+}
+
+.first {
+  top: 20px;
+}
+
+.ssecond {
+  top: 50px;
+}
+
+.third {
+  top: 80px;
+}

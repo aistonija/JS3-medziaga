@@ -1,0 +1,15 @@
+div {
+  width: 400px;
+}
+
+.message-icon {
+  text-align: center;
+  padding: 40px;
+  background-color: yellow;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}

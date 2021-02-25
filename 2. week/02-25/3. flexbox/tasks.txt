@@ -1,0 +1,23 @@
+1. Susikurti div su klase master-box
+2. div'e sukurti 3 elementus span su klase small-box
+3. div reikalavimai:
+    - margin: 10px;
+    - ryski background spalva;
+    - plotis: 300px;
+    - padding: 30px;
+
+4. span reikalavimai:
+    - margin: 5px;
+    - spalva, atmusanti tevini elementa;
+    - plotis ir aukstis: 15px;
+
+5. div su master-box nustatomas display: flex;
+
+6. Pagal duota pavyzdi atkartoti kubeliu isdeliojimo vaizda;
+
+----------------------------------------
+1. sukurti tevini elementa master-container, ir i ji sudeti turimus div elementus;
+
+2. master-container turi buti plocio: 100%; turi tureti rysku background; 800-1000px auksti;
+
+3. visi divai turi buti iscentruoti teviniame elemente per viduri, tiek x asyje, tiek y asyje. 
