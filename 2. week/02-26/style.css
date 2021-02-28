@@ -23,13 +23,17 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  height: 40px;
-  padding: 10px 0;
+  height: 50px;
   background-color: rgb(53, 53, 34);
   z-index: 2;
 }
 
-header nav img {
+.logo-container {
+  padding: 10px 0;
+  width: 30%;
+}
+
+.logo-container > img {
   height: 100%;
 }
 
@@ -37,15 +41,23 @@ nav ul {
   margin: 0;
   list-style: none;
   display: flex;
-  align-items: center;
   justify-content: space-around;
-  width: 40%;
+  width: 50%;
+}
+
+nav ul li {
+  padding: 12px 15px 0;
 }
 
 nav ul li a {
+  height: 100%;
   color: white;
   text-decoration: none;
   font-size: 20px;
+}
+
+nav ul li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 nav .container {
