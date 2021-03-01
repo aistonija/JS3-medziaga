@@ -1,0 +1,80 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: beige;
+}
+
+.default {
+  font-size: 32px;
+  color: black;
+  text-decoration: none;
+}
+
+.default:hover {
+  color: blue;
+}
+
+.default:visited {
+  color: green;
+}
+
+.default:focus {
+  color: gold;
+}
+
+.default:active {
+  color: crimson;
+  font-weight: 900;
+}
+
+nav:focus-within {
+  background-color: rgb(197, 255, 255);
+}
+
+.default::before {
+  content: "!";
+}
+
+.default::after {
+  content: "!";
+}
+
+/* LIST SU BEFORE IR AFTER */
+
+ul {
+  list-style: none;
+  font-size: 32px;
+  padding-left: 0;
+}
+
+li {
+  line-height: 3em;
+}
+
+li::before {
+  content: "\f1fa";
+  font-family: "Font Awesome 5 Free";
+  /* JEIGU SOLID AR REGULAR STYLE - NAUDOJAME Font Awesome 5 Free*/
+  font-weight: 900;
+  padding: 20px;
+  color: red;
+}
+
+/* JEIGU FONT AWESOME BRANDS - NEREIKIA FONT-WEIGHT */
+
+li::after {
+  content: "\f834";
+  font-family: "Font Awesome 5 Brands";
+  color: green;
+  padding-left: 20px;
+}
+
+/* Jeigu naudojamas solid style/ regular style */
+/* font-family: "Font Awesome 5 Free"; */
+/* font-weight: 400/900; */
+
+/* Jeigu naudojamas brands style */
+/* font-family: "Font Awesome 5 Brands"; */
+/* font-weight NEREIKIA */
