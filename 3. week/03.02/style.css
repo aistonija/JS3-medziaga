@@ -1,7 +1,9 @@
 * {
-  font-family: "Source Sans Pro", sans-serif;
+  /* font-family: "Source Sans Pro", sans-serif; */
   line-height: 1.5;
   font-weight: 100;
+  font-size: 20px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
 .container {
@@ -31,7 +33,6 @@ header nav a {
   color: white;
   text-decoration: none;
   border-bottom: 1px solid rgb(63, 63, 63);
-  border-width: 100%;
 }
 
 header nav a:last-child {
@@ -40,6 +41,7 @@ header nav a:last-child {
 
 .banner-section {
   padding-top: 30px;
+  border-bottom: 1px solid darkgray;
 }
 
 .img-container {
@@ -68,6 +70,7 @@ header nav a:last-child {
 .button-container {
   margin: 20px 0;
 }
+
 .button-container > button {
   width: 100%;
 }
@@ -80,4 +83,27 @@ button.banner__button {
   border-radius: 15px;
   box-shadow: 0px 2px 5px rgb(29, 29, 29);
   border: none;
+}
+
+.main__content {
+  padding-top: 40px;
+}
+
+.bg-texture {
+  background-image: url("moroccan-flower.png");
+}
+
+.bg-color-layer {
+  background-color: rgba(47, 53, 54, 0.8);
+}
+
+.article__title {
+  color: white;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.article__content {
+  color: white;
+  margin-top: 0;
 }
