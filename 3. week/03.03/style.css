@@ -186,6 +186,14 @@ button {
   text-decoration: none;
 }
 
+/* FOOTER */
+
+footer {
+  background-color: aquamarine;
+  padding: 20px;
+  text-align: center;
+}
+
 /* TABLET VIEW min-width: 769px */
 /* BANNER SECTION */
 
@@ -234,6 +242,11 @@ button {
   .lists__container > ul {
     flex-basis: 24%;
     background-color: rgb(250, 148, 197);
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 40px;
   }
 }
 
