@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+.container {
+  border: 2px solid crimson;
+  width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 10px;
+  /* 10 stulpeliu, kas antras dvigubai platesnis */
+  /* 1. Make the grid 10 columns wide, every other taking up twice the free space */
+  /* grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr; */
+  grid-template-columns: repeat(5, 1fr 2fr);
+
+  /* 2. Pasirasyti gridui: 10 EILUCIU, 50px aukscio  */
+  /* Make the grid have 10 explicit rows, 50px high each */
+  grid-template-rows: repeat(10, 50px);
+}
+
+.item {
+  border: 1px solid black;
+  background-color: #b7b7f4;
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+/* 3. Item 1, start at column 3 and go until column 5  */
+.item1 {
+  /* grid-column-start: 3;
+  grid-column-end: 5; */
+
+  grid-column: 3 / 5;
+
+  /* grid-column: 3 / span 2; */
+
+  /* grid-column: span 2 / 5; */
+}
+
+/* 4. With Item 2, start at column 5 and go until the end */
+.item2 {
+  grid-column: 5 / -1;
+}
+
+/* 5. Item 5 - 2 columns and 2 rows */
+/* item 5 turi uzimti du stulpelius i sona ir 2 eilutes i apacia */
+.item5 {
+  background-color: blue;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+/* 6. Item 20 span the entire grid width*/
+.item20 {
+  background-color: burlywood;
+  grid-column: 1 / -1;
+}
