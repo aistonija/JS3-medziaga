@@ -4,6 +4,20 @@
   margin: 0 auto;
   display: grid;
   gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(10, 250px);
+  grid-auto-flow: dense;
+  grid-template-areas:
+    "big big wide wide"
+    "big big square1 square2"
+    "square3 square4 square5 square6"
+    "wide2 wide2 square7 square8"
+    "big2 big2 square9 square10"
+    "big2 big2 wide3 wide3"
+    "square11 big3 big3 square12"
+    "square13 big3 big3 square14"
+    "square15 square16 big4 big4"
+    "square17 square18 big4 big4";
 }
 
 .item {
@@ -11,4 +25,104 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.item1 {
+  grid-area: big;
+}
+
+.item2 {
+  grid-area: wide;
+}
+
+.item3 {
+  grid-area: square1;
+}
+
+.item4 {
+  grid-area: square2;
+}
+
+.item5 {
+  grid-area: square3;
+}
+
+.item6 {
+  grid-area: square4;
+}
+
+.item7 {
+  grid-area: square5;
+}
+
+.item8 {
+  grid-area: square6;
+}
+
+.item9 {
+  grid-area: wide2;
+}
+
+.item10 {
+  grid-area: square7;
+}
+
+.item11 {
+  grid-area: square8;
+}
+
+.item12 {
+  grid-area: big2;
+}
+
+.item13 {
+  grid-area: square9;
+}
+
+.item14 {
+  grid-area: square18;
+}
+
+.item15 {
+  grid-area: square10;
+}
+
+.item16 {
+  grid-area: wide3;
+}
+
+.item17 {
+  grid-area: square11;
+}
+
+.item18 {
+  grid-area: big3;
+}
+
+.item19 {
+  grid-area: square12;
+}
+
+.item20 {
+  grid-area: square13;
+}
+
+.item21 {
+  grid-area: square14;
+}
+
+.item22 {
+  grid-area: square15;
+}
+
+.item23 {
+  grid-area: square16;
+}
+
+.item24 {
+  grid-area: big4;
+}
+
+.item25 {
+  grid-area: square17;
 }
