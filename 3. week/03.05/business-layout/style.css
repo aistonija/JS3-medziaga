@@ -30,3 +30,79 @@ header .burger__nav {
 header .navbar {
   display: none;
 }
+
+header .header__logo:hover,
+header .burger__nav:hover {
+  color: sienna;
+  cursor: pointer;
+}
+/* MAIN SECTION */
+
+.main-bg {
+  background-image: url("img/bg-medium.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main-bg__layer {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.main-content {
+  padding-top: 50px;
+}
+
+.text__heading,
+.text__subheading,
+.text__subheading > a {
+  color: white;
+}
+
+.services {
+  margin-top: 20px;
+}
+
+.service {
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 0;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service > * {
+  color: rgb(99, 17, 17);
+  font-size: 26px;
+}
+
+.service .icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgb(255, 168, 159);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service > h3 {
+  padding-top: 20px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(27, 27, 27);
+  color: rgb(192, 192, 192);
+  text-align: center;
+  font-weight: 100;
+}
