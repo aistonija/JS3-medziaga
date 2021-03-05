@@ -1,4 +1,32 @@
+/* GLOBAL STYLES */
+
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
+}
+
+/* HEADER STYLES */
+.container {
+  padding: 40px;
+}
+
+header {
+  background-color: rgb(221, 221, 221);
+}
+
+header > .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+header > .container * {
+  font-size: 22px;
+}
+
+header .burger__nav {
+  justify-self: end;
+}
+
+header .navbar {
+  display: none;
 }
