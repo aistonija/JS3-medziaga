@@ -1,0 +1,12 @@
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+/* Variables - kintamieji */
+:root {
+  --text-main-color: #999999;
+  --main-font: Verdana, Geneva, Tahoma, sans-serif;
+  --primary: #a2c0be;
+  --dark: #000;
+}
