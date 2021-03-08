@@ -133,6 +133,10 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto-fit);
   }
+
+  .service {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 1024px) {
