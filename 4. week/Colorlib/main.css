@@ -1,0 +1,50 @@
+/* global styles */
+:root {
+  --light: #fff;
+  --yellow: rgba(241, 210, 4, 0.9);
+  --violet: rgb(106, 77, 138);
+  --tomato: rgb(241, 139, 109);
+  --dark: rgb(94, 94, 94);
+}
+/* common styles */
+
+* {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* header */
+
+.main-bg {
+  background-image: url(./images/front-page-header.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-nav {
+  display: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa-bars {
+  font-size: 1.5rem;
+  color: var(--light);
+}
