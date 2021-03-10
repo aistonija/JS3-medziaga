@@ -163,6 +163,26 @@ a.btn {
     flex-direction: row;
     justify-content: center;
   }
+
+  .main-nav-toggle {
+    display: none;
+  }
+
+  .main-nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .main-nav__link {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .main-nav__link:hover {
+    color: var(--yellow);
+  }
 }
 
 @media screen and (min-width: 1200px) {
